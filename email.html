@@ -1,0 +1,25 @@
+<!DOCTYPE html>                                                     <!-- 문서유형 : HTML-->
+<html>                                                              <!-- <html> ~ </html> 사이의 모든 것은 HTML 코드이다. -->
+
+<head>                                                              <!--  head : 웹페이지 정보(메타데이터)를 담고있음. 페이지를 어떻게 처리해야 할지 브라우저에게 알려줌 -->
+        <meta charset="utf-8">                                      <!-- 이 파일을 열 때, 모든 텍스트가 UTF-8 인코딩 시스템을 사용하여 인코딩 [글자 안 깨지게] -->
+        <title>cyr's phone number</title>                           <!-- title: 웹 브라우저 탭 제목 -->
+</head>
+
+<body>                                                              <!-- body: 실제 사용자에게 보이는 내용 영역 -->
+    <h2>이메일 등록 화면</h2>
+   <a href="index.html"><strong>뒤로 가기</strong></a>
+   <hr size="3" color="navy" noshade>
+   <form class="" action="mailto:ckdudfh19@naver.com" method="post". enctype="text/plain">                
+        <!-- form: 폼 생성 [class: css적용 or J.S에서 제어할 떄 사용하는 이름표 // action:보낼 대상의 주소(경로) // method:어떻게 보낼지(get: 주소창에 데이터가 붙어서 전송 / post: 데이터를 본문(body)에 담아서 전송) / enctype:인코딩 타입] -->
+        <label>성명</label>                                          <!-- label: 레이블 -->
+        <input type="text" name="yourName" value="성명을 입력하세요."><br>     <!-- input: 추가 [type="text"(텍스트창), name="보낼때 저장되는 변수",value="기본값"] -->
+        <label>이메일</label>                                          <!-- type 종류: checkbox, text, password, date, submit 등 엄청 많음 -->
+        <input type="email" name="yourEmail" value=""><br>    
+        <label>메시지: </label> <br>   
+        <textarea name="yourMessage" rows="5" cols="50"></textarea><br>
+        <input type="submit" name="">
+   </form>
+</body> 
+
+</html>
